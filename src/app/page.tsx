@@ -1,9 +1,8 @@
 "use client"
-import { loadGetInitialProps } from 'next/dist/shared/lib/utils'
 import Image from 'next/image'
 import React, { useState } from 'react'
 
-function page() {
+function Page() {
 
   const [likes,setLikes] = useState(0)
   function handleClick(){
@@ -28,4 +27,4 @@ function page() {
   
 }
 
-export default page
+export default Page
